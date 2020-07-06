@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">ProyectoTiendaMovil</string>
+    <string name="vetana_nombre">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="btn_google">Iniciar sesión con Google</string>
+    <string name="pregunta">No tienes una cuenta ?</string>
+    <string name="registrar">Registrate </string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="r_contraseña">Repetir contraseña</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="pregunta1">Ya tienes una cuenta ?</string>
 </resources>
