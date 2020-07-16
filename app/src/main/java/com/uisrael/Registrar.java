@@ -29,10 +29,10 @@ public class Registrar extends AppCompatActivity implements GoogleApiClient.OnCo
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar);
-        etcontraseña = findViewById(R.id.etUsuario);
+        etcontraseña = findViewById(R.id.etusuario);
         etUsuario = findViewById(R.id.etContraseña);
-        etNombre = findViewById(R.id.etNombre);
-        etApellido = findViewById(R.id.etApellido);
+        etNombre = findViewById(R.id.etnombre);
+        etApellido = findViewById(R.id.etapellido);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()

@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".IniciarSesion">
 
+
     <Button
         android:id="@+id/btnIniciarSesion"
         android:layout_width="wrap_content"
@@ -13,6 +14,7 @@
         android:layout_marginLeft="21dp"
         android:layout_marginStart="21dp"
         android:layout_marginTop="51dp"
+        android:onClick="IniciarSesion"
         android:text="@string/vetana_nombre"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/etContraseña" />
@@ -28,7 +30,7 @@
         app:layout_constraintStart_toEndOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/etUsuario"
+        android:id="@+id/etusuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="46dp"
@@ -50,8 +52,8 @@
         android:ems="10"
         android:inputType="textPassword"
         android:hint="Contraseña"
-        app:layout_constraintEnd_toEndOf="@+id/etUsuario"
-        app:layout_constraintTop_toBottomOf="@+id/etUsuario" />
+        app:layout_constraintEnd_toEndOf="@+id/etusuario"
+        app:layout_constraintTop_toBottomOf="@+id/etusuario" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -85,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:text="@string/vetana_nombre"
-        app:layout_constraintBottom_toTopOf="@+id/etUsuario"
+        app:layout_constraintBottom_toTopOf="@+id/etusuario"
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <TextView
@@ -96,8 +98,8 @@
         android:layout_marginEnd="31dp"
         android:layout_marginRight="31dp"
         android:text="@string/usuario"
-        app:layout_constraintBottom_toBottomOf="@+id/etUsuario"
-        app:layout_constraintEnd_toStartOf="@+id/etUsuario" />
+        app:layout_constraintBottom_toBottomOf="@+id/etusuario"
+        app:layout_constraintEnd_toStartOf="@+id/etusuario" />
 
     <TextView
         android:id="@+id/textView3"
